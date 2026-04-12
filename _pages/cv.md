@@ -9,56 +9,26 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+## Academic Qualifications
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+**Master of Philosophy in Computer Networks**  
+*Sri Lanka Institute of Information Technology (2025)*  
+Thesis title: [Elephant Detection and Early Warning Using Seismic Waves](/assets/Documents/Elephant%20Detection%20and%20Early%20Warning%20Using%20Seismic%20Waves.pdf)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+**Bachelor of Science of Engineering Honours in Electrical & Electronic Engineering**  
+*Sri Lanka Institute of Information Technology (2020)*  
+* GPA: 3.62 | Second Class Honours in Upper Division.
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+**Professional Graduate Diploma in IT (BCS Level 6)**  
+*BCS Higher Education Qualification (2017)*
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+## Comprehensive CV
+
+You can view my full CV below, which includes detailed sections on my Professional Experience, Research and Technical Skill Matrices, and Teaching Experience Matrices.
+
+<iframe src="/assets/Documents/Jaliya_Wijayaraja_CV.pdf" width="100%" height="800px" style="border: none;">
+  This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/Documents/Jaliya_Wijayaraja_CV.pdf">Download PDF</a>
+</iframe>
+
+<br>
+<a href="/assets/Documents/Jaliya_Wijayaraja_CV.pdf" class="btn btn--primary">Download Full CV (PDF)</a>
