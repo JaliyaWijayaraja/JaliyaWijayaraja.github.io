@@ -12,7 +12,7 @@ toc_icon: "graduation-cap"
 
 * **Master of Philosophy in Computer Networks**  
   *Sri Lanka Institute of Information Technology (2025)*  
-  Thesis: Elephant Detection and Early Warning Using Seismic Waves
+  Thesis: [Elephant Detection and Early Warning Using Seismic Waves](/assets/Documents/Elephant%20Detection%20and%20Early%20Warning%20Using%20Seismic%20Waves.pdf){:target="_blank"}
 
 * **Bachelor of Science of Engineering Honours in Electrical & Electronic Engineering**  
   *Sri Lanka Institute of Information Technology (2020)*  

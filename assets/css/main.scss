@@ -615,6 +615,44 @@ h1, h2, h3, h4, h5, h6 {
     color: #fff;
 }
 
+/* Publication card inner elements */
+.pub-entry p {
+    margin: 0 0 0.25em 0;
+    line-height: 1.5;
+}
+
+.pub-title {
+    font-family: 'Merriweather', Georgia, serif;
+    font-weight: 700;
+    font-size: 0.97em;
+    color: var(--global-text-color, #1a1a1a);
+}
+
+.pub-authors {
+    font-size: 0.88em;
+    color: var(--global-text-color, #333);
+}
+
+.pub-venue {
+    font-size: 0.85em;
+    color: var(--global-text-color-light, #555);
+}
+
+.pub-award {
+    font-size: 0.82em;
+    color: #1a7a4a;
+    font-weight: 600;
+    margin-top: 0.3em !important;
+}
+
+[data-theme="dark"] .pub-title {
+    color: var(--global-text-color);
+}
+
+[data-theme="dark"] .pub-award {
+    color: #1da460;
+}
+
 /* =========================================================
    LIGHTBOX — PREV / NEXT ARROW BUTTONS
    ========================================================= */

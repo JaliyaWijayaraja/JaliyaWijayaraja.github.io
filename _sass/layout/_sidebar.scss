@@ -154,9 +154,11 @@
   }
 
   img {
+    width: 100%;
     max-width: 175px;
-    aspect-ratio: 1 / 1;
+    aspect-ratio: 69 / 100;   /* 0.69:1 portrait ratio */
     object-fit: cover;
+    object-position: center top;  /* Keep face in frame */
     border-radius: 0;
 
     @include breakpoint($large) {
@@ -165,6 +167,7 @@
     }
   }
 }
+
 
 .author__content {
   display: table-cell;
