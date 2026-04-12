@@ -9,26 +9,19 @@ redirect_from:
 
 {% include base_path %}
 
-## Academic Qualifications
+## Curriculum Vitae
 
-**Master of Philosophy in Computer Networks**  
-*Sri Lanka Institute of Information Technology (2025)*  
-Thesis title: [Elephant Detection and Early Warning Using Seismic Waves](/assets/Documents/Elephant%20Detection%20and%20Early%20Warning%20Using%20Seismic%20Waves.pdf)
+The comprehensive CV below includes detailed sections on my Professional Experience, Research, and Teaching portfolios. 
 
-**Bachelor of Science of Engineering Honours in Electrical & Electronic Engineering**  
-*Sri Lanka Institute of Information Technology (2020)*  
-* GPA: 3.62 | Second Class Honours in Upper Division.
+> *Tip: You can navigate directly back to the detailed HTML sections using the navigation menu.*
 
-**Professional Graduate Diploma in IT (BCS Level 6)**  
-*BCS Higher Education Qualification (2017)*
-
-## Comprehensive CV
-
-You can view my full CV below, which includes detailed sections on my Professional Experience, Research and Technical Skill Matrices, and Teaching Experience Matrices.
-
-<iframe src="/assets/Documents/Jaliya_Wijayaraja_CV.pdf" width="100%" height="800px" style="border: none;">
-  This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/Documents/Jaliya_Wijayaraja_CV.pdf">Download PDF</a>
-</iframe>
+<div class="pdf-container" style="margin-top: 20px;">
+  <iframe src="/assets/Documents/Jaliya_Wijayaraja_CV.pdf" width="100%" height="800px" style="border: none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
+    This browser does not support PDFs. Please download the PDF to view it: <a href="/assets/Documents/Jaliya_Wijayaraja_CV.pdf">Download PDF</a>
+  </iframe>
+</div>
 
 <br>
-<a href="/assets/Documents/Jaliya_Wijayaraja_CV.pdf" class="btn btn--primary">Download Full CV (PDF)</a>
+<div style="text-align: center;">
+  <a href="/assets/Documents/Jaliya_Wijayaraja_CV.pdf" class="btn btn--primary" target="_blank">Download Full CV (PDF)</a>
+</div>

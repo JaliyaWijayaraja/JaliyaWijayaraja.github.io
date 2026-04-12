@@ -41,3 +41,109 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Custom Media & Timeline Styles */
+.responsive-media {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.responsive-media:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+    z-index: 10;
+}
+
+.media-caption {
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+    border-radius: 8px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.video-container iframe,
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Timeline Styles for Experience */
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 20px auto;
+    padding-left: 20px;
+    border-left: 3px solid #005f87;
+}
+
+.timeline-item {
+    padding: 0 20px 30px 20px;
+    position: relative;
+}
+
+.timeline-item::before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: #005f87;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    left: -29.5px;
+    top: 5px;
+    box-shadow: 0 0 0 3px rgba(0, 95, 135, 0.2);
+}
+
+.timeline-date {
+    font-weight: 600;
+    color: #005f87;
+    margin-bottom: 5px;
+    display: inline-block;
+    font-size: 0.95em;
+}
+
+.timeline-content h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1.25em;
+}
+
+.timeline-content h4 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    color: #666;
+    font-weight: normal;
+}
+
+.timeline-content p {
+    margin: 0 0 10px 0;
+    line-height: 1.6;
+}
+
+/* Smooth scrolling for anchor links */
+html {
+    scroll-behavior: smooth;
+}

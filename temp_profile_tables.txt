@@ -1,0 +1,60 @@
+
+
+---Table---
+Aspect	Overview
+Publication Record	6 publications
+Journal Articles	2
+Conference Papers	4
+First-Author Contributions	2 IEEE Access journal papers
+Q1 Journal Papers	2
+Venue Profile	IEEE journal and international conference publications
+Thematic Areas	Embedded systems, AI, IoT, signal processing, and environmental applications
+Overall Focus	Research combining technical depth with applied and societal relevance
+
+---Table---
+Venue	Type	Indexing	Quality	H Index	Impact Score	SJR	Published Year
+IEEE Access	Journal	Scopus, WoS	Q1	290	5.31	0.849	2024,2025
+IECON 2023	Conference	IEEE Xplore, Scopus	IEEE conference	81	0.57	0.205	2023
+ICAC 2024	Conference	IEEE Xplore, Scopus	IEEE conference	16			2024
+TENCON 2024	Conference	IEEE Xplore, Scopus	IEEE conference	49		0.177	2024
+ICPECA 2025	Conference	IEEE Xplore	IEEE conference				2025
+
+---Table---
+Position	Organization	Duration	Key Responsibilities / Contributions
+Lecturer	Department of Industrial Management, University of Kelaniya	Feb 2026 – Present	Deliver lectures and conduct assessments for the undergraduate Mobile Computing module; contribute to research in Embedded Systems, IoT, Electronics, and Machine Learning
+Contract R&D Engineer	CorSci LLC, USA	Sep 2025 – Present	Support the design and development of biomedical device subsystems and related electronic control architectures; design electronic systems and develop firmware for biomedical device subsystems
+Co-Founder / R&D Engineer (Consulting)	Farm’s Tech (Pvt) Ltd	Feb 2023 – Present	Co-founded the venture; designed and deployed animal repellent systems across Sri Lanka; lead applied research on agentic AI for agricultural SMEs
+Academic Instructor	Faculty of Computing, Sri Lanka Institute of Information Technology (SLIIT)	May 2025 – Feb 2026	Conducted undergraduate lab sessions in Control Systems Engineering, Embedded Systems, Robotics and Intelligent Systems, IoT, and Hardware Security; supervised final-year research projects as an external mentor
+Research Assistant	Faculty of Computing, Sri Lanka Institute of Information Technology (SLIIT)	May 2021 – May 2025	Served as main researcher on human-elephant conflict mitigation research; developed AI-based early warning systems using seismic signal processing, embedded engineering, and machine learning; conducted undergraduate lab sessions
+Resource Person (Visiting Lecturer)	Metropolitan Campus KDU	Aug 2022 – Sep 2023	Delivered and developed the specialized course Certificate in IoT & Big Data for officers from the Office of the Chief of National Intelligence and Disaster Management Division, Ministry of Defence, Sri Lanka
+Electronics Engineer (Trainee)	Centre for Defence Research and Development, State Ministry of National Security, Home Affairs and Disaster Management	Nov 2019 – Jan 2020	Developed a digital voice encryption module; contributed to defence-grade jammer system design; designed and prototyped a computer-vision application for a T-55 tank training simulator
+Volunteer Contributor	Centre for Defence Research and Development	Jun 2020	Voluntarily contributed to jammer system design for national interest, focusing on PCB and electronic design
+Engineer Trainee	Vega Innovations	Nov 2018 – Jan 2019	Developed the AIGrow Smart Sense Android application; contributed to the AIGrow Sensor Node through digital circuit design and Node.js-based firmware implementation
+
+---Table---
+Category	Competencies / Expertise	Evidence / Application
+Embedded Systems	Embedded system design, firmware development, sensor interfacing, real-time implementation	Elephant detection instrumentation, biomedical device subsystems, IoT systems, embedded product development
+Artificial Intelligence and Machine Learning	Applied machine learning, classification systems, LSTM-based prediction, retrieval-augmented generation, agentic AI, explainable AI	Elephant signal classification, flood forecasting, automated viva assessment, agri-tech AI applications
+Signal Processing	Time-domain and frequency-domain analysis, event detection, feature engineering, waveform analysis, seismic signal analysis	Elephant seismic sensing, RPM sensing from ignition pulses, flood-related data analysis
+Computer Vision and Intelligent Systems	Image-based analysis, visual recognition, motion amplification, OpenCV-based intelligent systems	Tank training simulator application, forensic wound classification, defect identification in mechanical systems
+Electronic System Design	Analog and digital circuit design, instrumentation architecture, control electronics, prototyping and testing	Seismic data acquisition hardware, biomedical electronic subsystems, defense-related electronic systems
+IoT and Smart Systems	IoT-based monitoring, sensor-node integration, connected intelligent systems, applied smart-system development	AIGrow Smart Sense application, IoT and Big Data teaching, agricultural technology systems
+Biomedical Engineering Applications	Electronic subsystem design, actuator-related modelling support, biomedical control architectures, system reliability considerations	CorSci LLC biomedical subsystem development and related engineering support
+Modelling and Simulation	Signal modelling, system simulation, digital filter design, engineering analysis, simulation-assisted development	MATLAB-based signal studies, biomedical modelling support, evaluation of sensing and control approaches
+PCB, CAD, and Prototyping	PCB design, schematic development, board routing, 3D CAD modelling, product prototyping	Eagle CAD-based PCB design, Fusion 360 modelling, prototype-oriented engineering work
+Programming and Implementation	C, Python, Java, JavaScript, PHP, embedded C, Node.js-based implementation	Firmware development, intelligent system prototyping, application-oriented research implementation
+Research Translation and Applied Innovation	Translational engineering, prototype deployment, interdisciplinary R&D, industry-linked innovation	Farm’s Tech product development, national-scale agricultural deployment, commercially oriented engineering solutions
+Academic and Technical Communication	Scientific writing, technical documentation, LaTeX-based academic writing, research presentation	IEEE publications, conference papers, research reporting, technical course delivery
+
+---Table---
+Module	University / Institute	Level
+Internet of Things	Sri Lanka Institute of Information Technology	Master’s
+Mobile Computing	University of Kelaniya	Undergraduate
+Analog Electronics	Sri Lanka Institute of Information Technology	Undergraduate
+Digital Electronics	Sri Lanka Institute of Information Technology	Undergraduate
+Embedded Systems	Sri Lanka Institute of Information Technology	Undergraduate
+Hardware Security	Sri Lanka Institute of Information Technology	Undergraduate
+Robotics and Intelligent Systems	Sri Lanka Institute of Information Technology	Undergraduate
+Computer Networks	Sri Lanka Institute of Information Technology	Undergraduate
+Control Systems Engineering	Sri Lanka Institute of Information Technology	Undergraduate
+IoT and Big Data	Metropolitan Campus – General Sir John Kotelawala Defence University	Professional Short Course
