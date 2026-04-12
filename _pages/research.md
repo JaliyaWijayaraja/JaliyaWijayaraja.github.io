@@ -53,29 +53,49 @@ Importantly, the knowledge, technical expertise, and motivation developed throug
   </div>
 </div>
 
-<figure class="half">
+<div class="award-img-grid">
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/ED_Experiment 2.jpg" alt="Field Experiments Conducted in the Study">
+    <figcaption>Field Experiments Conducted in the Study</figcaption>
+  </figure>
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/ED_Experimets.png" alt="Field Experiments Conducted in the Study">
     <figcaption>Field Experiments Conducted in the Study</figcaption>
-</figure>
+  </figure>
+</div>
 
-<figure class="half">
+<div class="award-img-grid">
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/ED_Overall.png" alt="Overall Architecture of the Proposed System">
+    <figcaption>Overall Architecture of the Proposed System</figcaption>
+  </figure>
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/ED_Setup.png" alt="Implementation of the Instrumentation System">
-    <figcaption>Overall System Architecture and Instrumentation Implementation</figcaption>
-</figure>
+    <figcaption>Implementation of the Instrumentation System</figcaption>
+  </figure>
+</div>
 
-<figure class="half">
+<div class="award-img-grid">
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/ED_GSE.png" alt="Introduced Geophone-Sensor Interface">
+    <figcaption>Introduced Geophone-Sensor Interface</figcaption>
+  </figure>
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/ED_EventDetection.png" alt="Performance of Introduced Event Detection Method (CCW)">
-    <figcaption>Geophone-Sensor Interface and CCW Event Detection Performance</figcaption>
-</figure>
+    <figcaption>Performance of Introduced Event Detection Method (CCW)</figcaption>
+  </figure>
+</div>
 
-<figure class="half">
+<div class="award-img-grid">
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Awards/NBQSA.jpg" alt="NBQSA Award Ceremony 2023">
+    <figcaption>NBQSA Award Ceremony 2023</figcaption>
+  </figure>
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Awards/CSSL.png" alt="CSSL Award Ceremony 2023">
-    <figcaption>NBQSA and CSSL Award Ceremonies, 2023</figcaption>
-</figure>
+    <figcaption>CSSL Award Ceremony 2023</figcaption>
+  </figure>
+</div>
 
 <div class="video-container">
   <video width="100%" controls>
@@ -117,11 +137,16 @@ This ongoing research investigates the use of a Retrieval-Augmented Generation (
   </div>
 </div>
 
-<figure class="half">
+<div class="award-img-grid">
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/TLE_Testing.png" alt="Evaluation of the Minimum Viable Product (MVP) Across Multiple Academic Modules">
+    <figcaption>Evaluation of the Minimum Viable Product (MVP) Across Multiple Academic Modules</figcaption>
+  </figure>
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/TLE_MVP.png" alt="User Interface of the Developed Minimum Viable Product (MVP)">
-    <figcaption>Evaluation of the MVP Across Multiple Academic Modules</figcaption>
-</figure>
+    <figcaption>User Interface of the Developed Minimum Viable Product (MVP)</figcaption>
+  </figure>
+</div>
 
 <div class="resource-links">
   <a href="https://www.linkedin.com/posts/jaliya-lakshan-wijayaraja-9585b7157_aiineducation-rag-highereducation-activity-7387722217167659008-XpBs?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWkW5QBMK1WlNNKbzcHQfCCyb-IAHHDYQU" class="resource-btn" target="_blank">📰 Article: Pioneering AI-Powered Education</a>
@@ -160,17 +185,27 @@ This work was further recognized through the following award:
   </div>
 </div>
 
-<figure class="half">
+<div class="award-img-grid">
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/FD_Results.png" alt="Analysis of Catchment Impacts">
+    <figcaption>Analysis of Catchment Impacts</figcaption>
+  </figure>
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Conference/FD_Conf.jpg" alt="Presented at the International Symposium on Technology Development for Disaster Management 2024">
-    <figcaption>Analysis of Catchment Impacts and Conference Presentation</figcaption>
-</figure>
+    <figcaption>Presented at the International Symposium on Technology Development for Disaster Management 2024</figcaption>
+  </figure>
+</div>
 
-<figure class="half">
+<div class="award-img-grid">
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Awards/PresentICCAC2024.jpg" alt="Presented at ICAC 2024">
+    <figcaption>Presented at ICAC 2024</figcaption>
+  </figure>
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Awards/AwardICAC2024.jpg" alt="Recipient of the Outstanding Paper Award at ICAC 2024">
-    <figcaption>Presentation and Outstanding Paper Award at ICAC 2024</figcaption>
-</figure>
+    <figcaption>Recipient of the Outstanding Paper Award at ICAC 2024</figcaption>
+  </figure>
+</div>
 
 </div>
 
@@ -205,15 +240,20 @@ This work was further recognized through the following award:
   </div>
 </div>
 
-<figure class="half">
+<div class="award-img-grid">
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/RPM_exp.jpg" alt="Experimental Data Collection from the Ignition System">
+    <figcaption>Experimental Data Collection from the Ignition System</figcaption>
+  </figure>
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/RPM_Sig.png" alt="Signal Analysis for Accurate RPM Measurement">
-    <figcaption>Experimental Data Collection and Signal Analysis</figcaption>
-</figure>
+    <figcaption>Signal Analysis for Accurate RPM Measurement</figcaption>
+  </figure>
+</div>
 
-<figure class="half">
+<figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Awards/IECON.jpg" alt="IES SYP Paper Assistance Award Winners at IECON 2023">
-    <figcaption>IES SYP Paper Assistance Award, IECON 2023</figcaption>
+    <figcaption>IES SYP Paper Assistance Award Winners at IECON 2023</figcaption>
 </figure>
 
 <div class="resource-links">
@@ -329,17 +369,27 @@ This translational project was carried out in the capacity of Co-Founder and R&D
   </div>
 </div>
 
-<figure class="half">
+<div class="award-img-grid">
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/FT_Device.png" alt="Animal Repellent Systems Developed by Farm's Tech">
-    <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/FT_Feild.jpg" alt="Deployed Repellent Systems in Field">
     <figcaption>Animal Repellent Systems Developed by Farm's Tech</figcaption>
-</figure>
+  </figure>
+  <figure>
+    <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/FT_Feild.jpg" alt="Deployed Repellent Systems in Field">
+    <figcaption>Deployed Repellent Systems</figcaption>
+  </figure>
+</div>
 
-<figure class="half">
+<div class="award-img-grid">
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/FT_Deployed.png" alt="Devices Deployed Across Sri Lanka">
+    <figcaption>Devices Deployed Across Sri Lanka</figcaption>
+  </figure>
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/FT_Feedbacks.png" alt="Survey-Based Evaluation of Device Effectiveness">
-    <figcaption>Deployed Devices and User Satisfaction Survey Results</figcaption>
-</figure>
+    <figcaption>Survey-Based Evaluation of the Effectiveness of the Introduced Devices</figcaption>
+  </figure>
+</div>
 
 <div class="resource-links">
   <a href="https://farms-tech.com/" class="resource-btn" target="_blank">🔗 Visit Farm's Tech — Agricultural Engineering Solutions</a>
@@ -362,11 +412,16 @@ This ongoing project focuses on the development of a crowdsourcing mobile applic
   </div>
 </div>
 
-<figure class="half">
+<div class="award-img-grid">
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/GN_App.jpg" alt="GoviNet Mobile Application">
+    <figcaption>GoviNet Mobile Application</figcaption>
+  </figure>
+  <figure>
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/GN_Map.jpg" alt="Ali Mithuro: Elephant Localization Feature">
-    <figcaption>GoviNet Mobile Application and Elephant Localization Feature</figcaption>
-</figure>
+    <figcaption>Ali Mithuro: Elephant Localization Feature</figcaption>
+  </figure>
+</div>
 
 <figure>
   <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/GN_Showcase.jpg" alt="Showcasing GoviNet and Animal Repellent Devices">

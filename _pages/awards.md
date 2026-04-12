@@ -64,12 +64,10 @@ National-level recognition awarded for outstanding postgraduate research and inn
 
 <div class="award-img-grid">
   <figure>
-    <div class="video-container">
-      <video width="100%" controls>
-        <source src="/assets/Vedios/cssl2023.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-    </div>
+    <video class="responsive-media" controls>
+      <source src="/assets/Vedios/cssl2023.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
     <figcaption>CSSL ICT Awards, ICT Student Award – Postgraduate Category</figcaption>
   </figure>
 </div>
