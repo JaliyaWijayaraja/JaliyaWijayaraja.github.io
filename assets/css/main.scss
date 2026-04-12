@@ -476,9 +476,75 @@ h1, h2, h3, h4, h5, h6 {
 
 .award-img-grid .responsive-media {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
-    object-position: center top;
+    height: auto;            /* Natural aspect ratio — no cropping */
+    max-height: 300px;
+    object-fit: contain;
+    object-position: center;
+}
+
+/* =========================================================
+   INLINE LOGO (Farm's Tech logo inline in text)
+   ========================================================= */
+.inline-logo {
+    display: inline-block;
+    height: 18px;
+    width: auto;
+    vertical-align: middle;
+    margin: 0 0.25em 0 0;
+    border-radius: 0;
+    box-shadow: none !important;
+}
+
+/* =========================================================
+   RESOURCE LINK BUTTONS
+   Styled link buttons for thesis, dataset, YouTube links.
+   ========================================================= */
+.resource-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6em;
+    margin: 1em 0 0.5em 0;
+}
+
+.resource-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3em;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.82em;
+    font-weight: 500;
+    padding: 0.35em 0.85em;
+    color: #005f87 !important;
+    background: transparent;
+    border: 1.5px solid #005f87;
+    border-radius: 2px;
+    text-decoration: none !important;
+    transition: background 0.2s, color 0.2s;
+    white-space: nowrap;
+}
+
+.resource-btn:hover {
+    background: #005f87;
+    color: #fff !important;
+}
+
+[data-theme="dark"] .resource-btn {
+    color: #00a8d4 !important;
+    border-color: #00a8d4;
+}
+
+[data-theme="dark"] .resource-btn:hover {
+    background: #00a8d4;
+    color: #000 !important;
+}
+
+/* Media caption below videos */
+.media-caption {
+    font-style: italic;
+    font-size: 0.88em;
+    color: var(--global-text-color-light, #666);
+    text-align: center;
+    margin: 0.4em 0 1em;
 }
 
 /* =========================================================
