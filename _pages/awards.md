@@ -62,15 +62,17 @@ Received in recognition of outstanding research contribution during the year at 
 
 National-level recognition awarded for outstanding postgraduate research and innovation in the field of information and communication technology. This award acknowledges both technical contribution and broader societal relevance.
 
-<figure>
-  <div class="video-container">
-    <video width="100%" controls>
-      <source src="/assets/Vedios/cssl2023.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
-  <figcaption>CSSL ICT Student Award – Postgraduate Category, 2023</figcaption>
-</figure>
+<div class="award-img-grid">
+  <figure>
+    <div class="video-container">
+      <video width="100%" controls>
+        <source src="/assets/Vedios/cssl2023.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+    <figcaption>CSSL ICT Awards, ICT Student Award – Postgraduate Category</figcaption>
+  </figure>
+</div>
 
 <hr/>
 

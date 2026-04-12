@@ -167,18 +167,50 @@
     padding-bottom: 0;
 }
 
-/* Consistent figure and figcaption styles across all pages */
+/* Consistent figure and figcaption styles across all pages
+   Override theme flexbox to ensure caption is always BELOW images. */
 figure {
+    display: flex;
+    flex-direction: column;      /* Stack images then caption vertically */
+    align-items: center;
     margin: 1.5em 0;
     text-align: center;
 }
 
+/* For figure.half: images sit side-by-side, caption still below */
+figure.half {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5em;
+    align-items: flex-start;
+}
+
+figure.half img,
+figure.half .responsive-media {
+    width: calc(50% - 0.5em);
+    flex-shrink: 0;
+}
+
+figure.half figcaption {
+    width: 100%;
+    text-align: center;
+    order: 99;                   /* Always render after the images */
+}
+
 figcaption {
+    display: block;
+    width: 100%;
     font-size: 0.85em;
     color: #666;
     text-align: center;
     margin-top: 0.5em;
     font-style: italic;
+    line-height: 1.4;
+}
+
+[data-theme="dark"] figcaption {
+    color: #aaa;
 }
 
 /* Smooth scrolling for anchor links */

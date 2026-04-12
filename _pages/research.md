@@ -318,7 +318,7 @@ These projects were conducted as an independent subcontractor for **CorSci LLC, 
 
 <div class="project-card" markdown="1" id="card-repellent">
 
-### Animal Repellent System Design, Deployment, and Impact Analysis <span class="status-badge status-ongoing">Ongoing</span> {#animal-repellent-system}
+### Animal Repellent System Design, Deployment, and Impact Analysis <span class="status-badge status-completed">Completed</span> {#animal-repellent-system}
 
 This translational project was carried out in the capacity of Co-Founder and R&D Engineer at <a href="https://farms-tech.com/" target="_blank"><img src="/assets/Images/Logos/farmstech.png" alt="Farm's Tech" class="inline-logo"> **Farm's Tech (Pvt) Ltd**</a> and focused on the design, development, and field deployment of animal repellent systems for agricultural settings. The systems combined acoustic and light-based deterrence mechanisms to mitigate wildlife intrusion in farmlands. The work included device engineering, field evaluation of system effectiveness, and the development of low-cost manufacturing strategies to enable scalable production. More than **400 repellent devices** have since been deployed across Sri Lanka, and the technology has been recognized by relevant government organizations as a sustainable solution for animal intrusion management. A field survey representing **75 users** and approximately 100 deployed devices recorded a **98% satisfaction rate**, indicating strong user acceptance and practical effectiveness in real-world agricultural contexts.
 
@@ -340,6 +340,10 @@ This translational project was carried out in the capacity of Co-Founder and R&D
     <img class="responsive-media" loading="lazy" src="/assets/Images/Projects/FT_Feedbacks.png" alt="Survey-Based Evaluation of Device Effectiveness">
     <figcaption>Deployed Devices and User Satisfaction Survey Results</figcaption>
 </figure>
+
+<div class="resource-links">
+  <a href="https://farms-tech.com/" class="resource-btn" target="_blank">🔗 Visit Farm's Tech — Agricultural Engineering Solutions</a>
+</div>
 
 </div>
 
