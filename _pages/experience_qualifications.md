@@ -2,6 +2,10 @@
 permalink: /experience/
 title: "Qualifications and Experience"
 author_profile: true
+description: "Academic qualifications and professional experience of Jaliya Wijayaraja, including MPhil, BSc Engineering, lecturing roles, and industry experience."
+toc: true
+toc_label: "Contents"
+toc_icon: "graduation-cap"
 ---
 
 ## Academic Qualifications {#qualifications}

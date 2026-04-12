@@ -14,7 +14,21 @@
 <link rel="icon" href="/images/favicon.ico"/>
 <meta name="theme-color" content="#ffffff"/>
 
+<!-- Google Fonts: Inter (body) + Merriweather (headings) -->
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Merriweather:ital,wght@0,700;1,400&display=swap"/>
+
+<!-- Open Graph / SEO -->
+{% if page.description %}<meta name="description" content="{{ page.description }}"/>{% endif %}
+<meta property="og:title" content="{{ page.title | default: site.title }}"/>
+<meta property="og:description" content="{{ page.description | default: site.description }}"/>
+{% if site.og_image %}<meta property="og:image" content="{{ site.url }}{{ site.og_image }}"/>{% endif %}
+
 <!-- Lightbox for image popups -->
 <script defer src="{{ base_path }}/assets/js/lightbox.js"></script>
+
+<!-- Site-wide enhancements (progress bar, back-to-top, citation copy, lightbox arrows) -->
+<script defer src="{{ base_path }}/assets/js/site-enhancements.js"></script>
 
 <!-- end custom head snippets -->

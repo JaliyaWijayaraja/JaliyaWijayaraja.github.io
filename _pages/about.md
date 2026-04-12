@@ -1,7 +1,8 @@
 ---
 permalink: /
 title: "Profile"
-excerpt: "About me"
+excerpt: "Academic profile of Jaliya Wijayaraja — Lecturer and researcher in embedded systems, signal processing, and applied AI."
+description: "Academic profile of Jaliya Wijayaraja — Lecturer at University of Kelaniya, researcher in embedded systems, seismic signal processing, applied AI, and translational engineering."
 author_profile: true
 redirect_from: 
   - /about/
@@ -32,3 +33,11 @@ My research vision is to contribute to the advancement of intelligent autonomous
 ## Research Philosophy {#research-philosophy}
 
 Research is most meaningful when it combines scientific rigour with practical relevance. An interdisciplinary approach that connects theory, experimentation, and implementation is essential for addressing complex real-world challenges and developing technologies with meaningful societal value.
+
+## GitHub Activity {#github-activity}
+
+<div class="github-contrib-graph">
+  <a href="https://github.com/JaliyaWijayaraja" target="_blank" aria-label="View GitHub profile">
+    <img loading="lazy" src="https://ghchart.rshah.org/005f87/JaliyaWijayaraja" alt="JaliyaWijayaraja's GitHub contribution chart">
+  </a>
+</div>
