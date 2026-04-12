@@ -44,19 +44,19 @@
 
 /* Custom Media & Timeline Styles */
 .responsive-media {
+    height: 250px;
+    width: auto;
     max-width: 100%;
-    height: auto;
     object-fit: contain;
-    border-radius: 8px;
+    border-radius: 0;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     display: block;
     margin: 0 auto;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
 .responsive-media:hover {
-    transform: scale(1.05);
-    box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+    transform: scale(1.02);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
     z-index: 10;
 }
 
@@ -74,10 +74,9 @@
     padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
     height: 0;
     overflow: hidden;
-    max-width: 100%;
-    border-radius: 8px;
-    margin: 20px 0;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    max-width: 600px;
+    border-radius: 0;
+    margin: 20px auto;
 }
 
 .video-container iframe,
@@ -127,23 +126,196 @@
 .timeline-content h3 {
     margin-top: 0;
     margin-bottom: 5px;
-    font-size: 1.25em;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 .timeline-content h4 {
     margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 1.1em;
+    margin-bottom: 8px;
+    font-size: 0.9em;
     color: #666;
-    font-weight: normal;
+    font-weight: 500;
+    font-style: italic;
 }
 
 .timeline-content p {
     margin: 0 0 10px 0;
-    line-height: 1.6;
+    line-height: 1.5;
+    font-size: 0.9em;
+}
+
+/* Override page__content h3 styles inside timeline to maintain consistency */
+.page__content .timeline-content h3 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 1em;
+    font-weight: 600;
+    color: inherit;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.page__content .timeline-content h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-size: 0.9em;
+    color: #666;
+    font-weight: 500;
+    font-style: italic;
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+/* Consistent figure and figcaption styles across all pages */
+figure {
+    margin: 1.5em 0;
+    text-align: center;
+}
+
+figcaption {
+    font-size: 0.85em;
+    color: #666;
+    text-align: center;
+    margin-top: 0.5em;
+    font-style: italic;
 }
 
 /* Smooth scrolling for anchor links */
 html {
     scroll-behavior: smooth;
 }
+
+/* =========================================================
+   Project Metadata Block (Research Areas / Role / Status)
+   Used in research.md to visually separate metadata from
+   the project body text.
+   ========================================================= */
+.project-meta {
+    margin: 1.2em 0 0.5em 0;
+    border-top: 2px solid var(--global-border-color, #e0e0e0);
+    padding-top: 0.8em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+}
+
+.project-meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 0.4em;
+    font-size: 0.88em;
+    line-height: 1.5;
+}
+
+.project-meta-label {
+    display: inline-block;
+    background: #005f87;
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.78em;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.2em 0.6em;
+    border-radius: 2px;
+    white-space: nowrap;
+    flex-shrink: 0;
+    margin-top: 0.1em;
+}
+
+.project-meta-value {
+    color: var(--global-text-color, #333);
+    font-style: normal;
+    font-weight: normal;
+}
+
+/* =========================================================
+   Lightbox Overlay
+   ========================================================= */
+#lightbox-overlay {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.88);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#lightbox-overlay.active {
+    display: flex;
+}
+
+#lightbox-inner {
+    position: relative;
+    max-width: 92vw;
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.75em;
+}
+
+#lightbox-img {
+    max-width: 92vw;
+    max-height: 82vh;
+    object-fit: contain;
+    border-radius: 0;        /* No rounded corners */
+    border: 2px solid rgba(255,255,255,0.15);
+    display: block;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.6);
+}
+
+#lightbox-caption {
+    color: #e8e8e8;
+    font-size: 0.9em;
+    font-style: italic;
+    text-align: center;
+    max-width: 80vw;
+    margin: 0;
+    line-height: 1.4;
+}
+
+#lightbox-close {
+    position: fixed;
+    top: 1rem;
+    right: 1.25rem;
+    background: transparent;
+    border: none;
+    color: #fff;
+    font-size: 2.4rem;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 10000;
+    padding: 0 0.25em;
+    transition: color 0.2s;
+}
+
+#lightbox-close:hover {
+    color: #aaa;
+}
+
+/* =========================================================
+   Section heading permalink indicator
+   Shows a ¶ symbol on hover for all h2/h3 headings that
+   have an id — lets readers copy direct anchor links.
+   ========================================================= */
+.page__content h2[id]::after,
+.page__content h3[id]::after {
+    content: ' ¶';
+    font-size: 0.65em;
+    opacity: 0;
+    color: #005f87;
+    transition: opacity 0.2s;
+    vertical-align: middle;
+}
+
+.page__content h2[id]:hover::after,
+.page__content h3[id]:hover::after {
+    opacity: 0.6;
+}

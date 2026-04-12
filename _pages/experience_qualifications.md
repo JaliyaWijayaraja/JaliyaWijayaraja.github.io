@@ -1,12 +1,11 @@
 ---
 permalink: /experience/
-title: "Experience & Qualifications"
+title: "Qualifications and Experience"
 author_profile: true
 ---
 
-## Qualifications {#qualifications}
+## Academic Qualifications {#qualifications}
 
-### Academic Qualifications
 * **Master of Philosophy in Computer Networks**  
   *Sri Lanka Institute of Information Technology (2025)*  
   Thesis: Elephant Detection and Early Warning Using Seismic Waves
@@ -24,7 +23,7 @@ author_profile: true
 
 <div class="timeline">
   
-  <div class="timeline-item">
+  <div class="timeline-item" id="lecturer-uok">
     <div class="timeline-date">Feb 2026 – Present</div>
     <div class="timeline-content">
       <h3>Lecturer</h3>
@@ -33,7 +32,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" id="contract-rnd-engineer">
     <div class="timeline-date">Sep 2025 – Present</div>
     <div class="timeline-content">
       <h3>Contract R&D Engineer</h3>
@@ -42,7 +41,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" id="cofounder-rnd-farms-tech">
     <div class="timeline-date">Feb 2023 – Present</div>
     <div class="timeline-content">
       <h3>Co-Founder / R&D Engineer (Consulting)</h3>
@@ -51,7 +50,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" id="academic-instructor-sliit">
     <div class="timeline-date">May 2025 – Feb 2026</div>
     <div class="timeline-content">
       <h3>Academic Instructor</h3>
@@ -60,7 +59,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" id="research-assistant-sliit">
     <div class="timeline-date">May 2021 – May 2025</div>
     <div class="timeline-content">
       <h3>Research Assistant</h3>
@@ -69,7 +68,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" id="visiting-lecturer-kdu">
     <div class="timeline-date">Aug 2022 – Sep 2023</div>
     <div class="timeline-content">
       <h3>Resource Person (Visiting Lecturer)</h3>
@@ -78,7 +77,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" id="electronics-engineer-trainee">
     <div class="timeline-date">Nov 2019 – Jan 2020</div>
     <div class="timeline-content">
       <h3>Electronics Engineer (Trainee)</h3>
@@ -87,7 +86,7 @@ author_profile: true
     </div>
   </div>
 
-  <div class="timeline-item">
+  <div class="timeline-item" id="engineer-trainee-vega">
     <div class="timeline-date">Nov 2018 – Jan 2019</div>
     <div class="timeline-content">
       <h3>Engineer Trainee</h3>
