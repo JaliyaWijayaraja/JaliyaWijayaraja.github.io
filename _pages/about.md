@@ -1,14 +1,12 @@
 ---
 permalink: /
-title: "About"
+title: "Profile"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-## Profile {#profile}
 
 With a strong engineering foundation in embedded systems, signal processing, and applied artificial intelligence, my academic work has evolved through multidisciplinary research that connects rigorous technical investigation with real-world implementation. My research experience spans electronic engineering, artificial intelligence, environmental monitoring, disaster management applications, defense technologies, and biomedical systems, reflecting a broad yet coherent commitment to engineering research with practical relevance.
 

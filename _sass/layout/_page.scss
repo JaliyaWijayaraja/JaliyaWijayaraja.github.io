@@ -55,6 +55,15 @@
     border-bottom: 1px solid var(--global-border-color);
   }
 
+  h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+    color: var(--global-link-color-hover);
+    font-size: 1.25em;
+    border-bottom: 2px solid var(--global-border-color);
+    padding-bottom: 0.3em;
+  }
+
   p, li, dl {
     font-size: 1em;
   }

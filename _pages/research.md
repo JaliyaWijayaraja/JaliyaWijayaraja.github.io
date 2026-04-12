@@ -4,7 +4,7 @@ title: "Research Projects"
 author_profile: true
 ---
 
-## 2.1 Academic Research Projects
+## Academic Research
 
 ### Elephant Detection and Early Warning Using Seismic Waves {#elephant-detection-and-early-warning-using-seismic-waves}
 
@@ -58,10 +58,12 @@ Importantly, the knowledge, technical expertise, and motivation developed throug
     <img class="responsive-media" src="/assets/Images/Awards/CSSL.png" alt="CSSL Award Ceremony 2023">
 </figure>
 
-<div class="video-container">> <video width="100%" controls>
-  <source src="/assets/Vedios/Phase1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video></div>
+<div class="video-container">
+  <video width="100%" controls>
+    <source src="/assets/Vedios/Phase1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 *Caption: Research Overview: Phase 1*
 
 📄 **Thesis Form:** [Elephant Detection and Early Warning Using Seismic Waves](/assets/Documents/Elephant%20Detection%20and%20Early%20Warning%20Using%20Seismic%20Waves.pdf)
@@ -83,6 +85,7 @@ This ongoing research investigates the use of a Retrieval-Augmented Generation (
 <figure class="half">
     <img class="responsive-media" src="/assets/Images/Projects/TLE_Testing.png" alt="Evaluation of the Minimum Viable Product (MVP) Across Multiple Academic Modules">
     <img class="responsive-media" src="/assets/Images/Projects/TLE_MVP.png" alt="User Interface of the Developed Minimum Viable Product (MVP)">
+    <figcaption>Evaluation of the Minimum Viable Product (MVP)</figcaption>
 </figure>
 
 🔗 **Article:** [Pioneering AI-Powered Education: Integrating Retrieval-Augmented Generation (RAG) into Teaching and Learning](https://www.linkedin.com/posts/jaliya-lakshan-wijayaraja-9585b7157_aiineducation-rag-highereducation-activity-7387722217167659008-XpBs?utm_source=share&utm_medium=member_desktop&rcm=ACoAACWkW5QBMK1WlNNKbzcHQfCCyb-IAHHDYQU)
@@ -104,11 +107,13 @@ This work was further recognized through the following award:
 <figure class="half">
     <img class="responsive-media" src="/assets/Images/Projects/FD_Results.png" alt="Analysis of Catchment Impacts">
     <img class="responsive-media" src="/assets/Images/Conference/FD_Conf.jpg" alt="Presented at the International Symposium on Technology Development for Disaster Management 2024">
+    <figcaption>Analysis of Catchment Impacts & Presentation</figcaption>
 </figure>
 
 <figure class="half">
     <img class="responsive-media" src="/assets/Images/Awards/PresentICCAC2024.jpg" alt="Presented at ICAC 2024">
     <img class="responsive-media" src="/assets/Images/Awards/AwardICAC2024.jpg" alt="Recipient of the Outstanding Paper Award at ICAC 2024">
+    <figcaption>ICAC 2024 Presentation and Outstanding Paper Award</figcaption>
 </figure>
 
 ---
@@ -127,13 +132,17 @@ This study investigated signal processing techniques to improve the accuracy of 
 <figure class="half">
     <img class="responsive-media" src="/assets/Images/Projects/RPM_exp.jpg" alt="Experimental Data Collection from the Ignition System">
     <img class="responsive-media" src="/assets/Images/Projects/RPM_Sig.png" alt="Signal Analysis for Accurate RPM Measurement">
+    <figcaption>Experimental Data Collection and Signal Analysis</figcaption>
 </figure>
 
 <figure class="half">
     <img class="responsive-media" src="/assets/Images/Awards/IECON.jpg" alt="IES SYP Paper Assistance Award Winners at IECON 2023">
+    <figcaption>IES SYP Paper Assistance Award Winners at IECON 2023</figcaption>
 </figure>
 
-> <iframe width="100%" height="315" src="https://www.youtube.com/embed/7n12ja0lFJU" frameborder="0" allowfullscreen></iframe>
+<div class="video-container">
+  <iframe width="100%" height="315" src="https://www.youtube.com/embed/7n12ja0lFJU" frameborder="0" allowfullscreen></iframe>
+</div>
 *Caption: Primary Ignition Pulses for Accurate RPM Detection*
 
 ---
@@ -154,7 +163,10 @@ This self-initiated project investigates the application of computer vision tech
 **Research Areas:** Image processing, motion amplification, computer vision, mechanical condition monitoring  
 **Role:** Independent Researcher  
 
-<img class="responsive-media" src="/assets/Images/Projects/MA_Experiment.jpg" alt="Mechanical Motion Detection Using Motion Amplification">
+<figure>
+  <img class="responsive-media" src="/assets/Images/Projects/MA_Experiment.jpg" alt="Mechanical Motion Detection Using Motion Amplification">
+  <figcaption>Mechanical Motion Detection Using Motion Amplification</figcaption>
+</figure>
 
 ---
 
@@ -167,7 +179,7 @@ This undergraduate research project focused on the design and development of a s
 
 ---
 
-## 2.2 Translational Research Projects
+## Translational Research
 
 ### Biomedical Electronic Subsystems Designing and Testing {#biomedical-electronic-subsystems-designing-and-testing}
 
@@ -182,11 +194,13 @@ This translational project was carried out in the capacity of Co-Founder and R&D
 <figure class="half">
     <img class="responsive-media" src="/assets/Images/Projects/FT_Device.png" alt="Animal Repellent Systems Developed by Farm’s Tech">
     <img class="responsive-media" src="/assets/Images/Projects/FT_Feild.jpg" alt="Deployed Repellent Systems">
+    <figcaption>Animal Repellent Systems Developed by Farm’s Tech</figcaption>
 </figure>
 
 <figure class="half">
     <img class="responsive-media" src="/assets/Images/Projects/FT_Deployed.png" alt="Devices Deployed Across Sri Lanka">
     <img class="responsive-media" src="/assets/Images/Projects/FT_Feedbacks.png" alt="Survey-Based Evaluation of the Effectiveness of the Introduced Devices">
+    <figcaption>Deployed Devices and Evaluation Feedback</figcaption>
 </figure>
 
 🔗 **Link:** [Farm’s Tech](https://farms-tech.com/)
@@ -200,9 +214,13 @@ This ongoing project focuses on the development of a crowdsourcing mobile applic
 <figure class="half">
     <img class="responsive-media" src="/assets/Images/Projects/GN_App.jpg" alt="GoviNet Mobile Application">
     <img class="responsive-media" src="/assets/Images/Projects/GN_Map.jpg" alt="Ali Mithuro: Elephant Localization Feature">
+    <figcaption>GoviNet Mobile Application and Elephant Localization Feature</figcaption>
 </figure>
 
-<img class="responsive-media" src="/assets/Images/Projects/GN_Showcase.jpg" alt="Showcasing GoviNet and Animal Repellent Devices">
+<figure>
+  <img class="responsive-media" src="/assets/Images/Projects/GN_Showcase.jpg" alt="Showcasing GoviNet and Animal Repellent Devices">
+  <figcaption>Showcasing GoviNet and Animal Repellent Devices</figcaption>
+</figure>
 
 ---
 
@@ -210,4 +228,7 @@ This ongoing project focuses on the development of a crowdsourcing mobile applic
 
 This ongoing project focuses on the mechanical design of an attachment for an animal repellent system developed by Farm’s Tech (Pvt) Ltd, with particular emphasis on peacock repellent applications addressing a significant agricultural challenge in Sri Lanka. The study explores the development of an additive manufacturing-friendly flexible structure capable of sustaining the vibration characteristics required for effective repellence, while maintaining structural integrity over prolonged use without significant deformation. Analytical evaluations are being conducted to optimize vibration performance and support the mechanical design process. Contributions to the project include concept formulation and partial involvement in 3D modelling.
 
-<img class="responsive-media" src="/assets/Images/Projects/PK_Prototype.jpg" alt="Ali Mithuro: Prototype Design for the Peacock Repellent System">
+<figure>
+  <img class="responsive-media" src="/assets/Images/Projects/PK_Prototype.jpg" alt="Ali Mithuro: Prototype Design for the Peacock Repellent System">
+  <figcaption>Prototype Design for the Peacock Repellent System</figcaption>
+</figure>
