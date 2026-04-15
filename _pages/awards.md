@@ -78,7 +78,7 @@ National-level recognition awarded for outstanding postgraduate research and inn
 
 **Awarding Body:** British Computer Society (BCS), Sri Lanka
 
-Received the National Best Quality Software Awards for postgraduate-level research and innovation. This recognition reflects the novelty, applicability, and quality of the research contribution at a national level.
+Received the National Best Quality Software Awards in recognition of postgraduate research and innovation. The award acknowledged JumboSense, a seismic-signal-based long-range elephant detection solution developed to mitigate human-elephant conflict. This recognition reflects the novelty, practical relevance, and national significance of the research contribution.
 
 <div class="award-img-grid">
   <figure>
@@ -93,7 +93,7 @@ Received the National Best Quality Software Awards for postgraduate-level resear
 
 **Awarding Body:** IEEE Industrial Electronics Society (IEEE IES)
 
-Awarded to support participation and paper presentation at IECON 2023, recognizing the merit and international relevance of the research work. This assistance acknowledges the quality, academic merit, and relevance of the accepted research paper to the field of industrial electronics.
+Awarded to support participation and paper presentation at IECON 2023 for the paper “Towards Accurate RPM Detection Using Primary Ignition Pulses.”  This assistance acknowledges the quality, academic merit, and relevance of the accepted research paper to the field of industrial electronics.
 
 <div class="award-img-grid">
   <figure>
