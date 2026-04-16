@@ -72,6 +72,10 @@ National-level recognition awarded for outstanding postgraduate research and inn
   </figure>
 </div>
 
+<div class="resource-links" style="justify-content: center;">
+  <a href="https://cssl.lk/wp-content/uploads/2024/04/2023.pdf" class="resource-btn" target="_blank">📄 Published Award Winners (CSSL 2023)</a>
+</div>
+
 <hr/>
 
 ### Bronze Award – National ICT Awards (NBQSA), Postgraduate Category, 2023 {#nbqsa-bronze-2023}
@@ -85,6 +89,10 @@ Received the National Best Quality Software Awards in recognition of postgraduat
     <img class="responsive-media" loading="lazy" src="/assets/Images/Awards/NBQSA.jpg" alt="NBQSA 2023 - Postgraduate Category">
     <figcaption>NBQSA 2023 – Postgraduate Category</figcaption>
   </figure>
+</div>
+
+<div class="resource-links" style="justify-content: center;">
+  <a href="https://nbqsa.com/nbqsa-2023/" class="resource-btn" target="_blank">🔗 Published Award Winners (NBQSA 2023)</a>
 </div>
 
 <hr/>
