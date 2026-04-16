@@ -1,6 +1,4 @@
----
----
-
+--- ---
 /*
  * This file controls what is imported from /_sass
  *
@@ -8,38 +6,37 @@
    sorted by the dependencies. Also, the first two lines of the file are required by Jekyll.
  */
 
-@import
-    "vendor/breakpoint/breakpoint",
+@import "vendor/breakpoint/breakpoint",
 
-    "themes",
-    "theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
-    "theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
+"themes",
+"theme/{{ site.site_theme | default: 'default' | append: '_light' }}",
+"theme/{{ site.site_theme | default: 'default' | append: '_dark' }}",
 
-    "include/mixins",
-    "vendor/susy/susy",
+"include/mixins",
+"vendor/susy/susy",
 
-    "layout/reset",
-    "layout/base",
+"layout/reset",
+"layout/base",
 
-    "include/utilities",
-    "layout/tables",
-    "layout/buttons",
-    "layout/notices",
-    "layout/masthead",
-    "layout/navigation",
-    "layout/footer",
-    "syntax",
+"include/utilities",
+"layout/tables",
+"layout/buttons",
+"layout/notices",
+"layout/masthead",
+"layout/navigation",
+"layout/footer",
+"syntax",
 
-    "layout/forms",
+"layout/forms",
 
-    "layout/page",
-    "layout/archive",
-    "layout/sidebar",
-    "layout/json_cv",
+"layout/page",
+"layout/archive",
+"layout/sidebar",
+"layout/json_cv",
 
-    "vendor/font-awesome/fontawesome",
-    "vendor/font-awesome/solid",
-    "vendor/font-awesome/brands"
+"vendor/font-awesome/fontawesome",
+"vendor/font-awesome/solid",
+"vendor/font-awesome/brands"
 ;
 
 /* Custom Media & Timeline Styles */
@@ -56,7 +53,7 @@
 
 .responsive-media:hover {
     transform: scale(1.02);
-    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     z-index: 10;
 }
 
@@ -71,7 +68,8 @@
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    padding-bottom: 56.25%;
+    /* 16:9 Aspect Ratio */
     height: 0;
     overflow: hidden;
     max-width: 600px;
@@ -176,7 +174,8 @@
    Override theme flexbox to ensure caption is always BELOW images. */
 figure {
     display: flex;
-    flex-direction: column;      /* Stack images then caption vertically */
+    flex-direction: column;
+    /* Stack images then caption vertically */
     align-items: center;
     margin: 1.5em 0;
     text-align: center;
@@ -200,7 +199,8 @@ figure.half .responsive-media {
 figure.half figcaption {
     width: 100%;
     text-align: center;
-    order: 99;                   /* Always render after the images */
+    order: 99;
+    /* Always render after the images */
 }
 
 figcaption {
@@ -216,12 +216,14 @@ figcaption {
 
 [data-theme="dark"] figcaption {
     color: #aaa;
+
 }
 
 /* Smooth scrolling for anchor links */
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 130px; /* Offset for fixed masthead + project card padding */
+    scroll-padding-top: 130px;
+    /* Offset for fixed masthead + project card padding */
 }
 
 /* =========================================================
@@ -303,10 +305,11 @@ html {
     max-width: 92vw;
     max-height: 82vh;
     object-fit: contain;
-    border-radius: 0;        /* No rounded corners */
-    border: 2px solid rgba(255,255,255,0.15);
+    border-radius: 0;
+    /* No rounded corners */
+    border: 2px solid rgba(255, 255, 255, 0.15);
     display: block;
-    box-shadow: 0 8px 40px rgba(0,0,0,0.6);
+    box-shadow: 0 8px 40px rgba(0, 0, 0, 0.6);
 }
 
 #lightbox-caption {
@@ -368,21 +371,32 @@ body {
     line-height: 1.7;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: 'Merriweather', Georgia, serif;
 }
 
 /* Sidebar and UI elements keep Inter */
-.sidebar, .masthead, .author__name, .author__bio,
-.author__urls, .page__meta, .nav__title, .toc {
+.sidebar,
+.masthead,
+.author__name,
+.author__bio,
+.author__urls,
+.page__meta,
+.nav__title,
+.toc {
     font-family: 'Inter', sans-serif;
 }
 
 /* Project body paragraphs: constrain width for comfortable reading */
-.page__content > p,
-.page__content > ul,
-.page__content > ol,
-.page__content > blockquote {
+.page__content>p,
+.page__content>ul,
+.page__content>ol,
+.page__content>blockquote {
     max-width: 72ch;
 }
 
@@ -413,7 +427,8 @@ h1, h2, h3, h4, h5, h6 {
     background: #005f87;
     color: #fff;
     border: none;
-    border-radius: 0;        /* Square — no rounded corners */
+    border-radius: 0;
+    /* Square — no rounded corners */
     font-size: 1.5rem;
     line-height: 1;
     cursor: pointer;
@@ -421,7 +436,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0;
     transform: translateY(8px);
     transition: opacity 0.25s, transform 0.25s, background 0.2s;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -482,12 +497,12 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom: 1px solid var(--global-border-color, #e8e8e8);
     padding: 1.4em 1.5em 1em 1.5em;
     margin-bottom: 2em;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
     transition: box-shadow 0.2s;
 }
 
 .project-card:hover {
-    box-shadow: 0 3px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* Strip the default h3 border-bottom inside project cards
@@ -514,7 +529,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .award-img-grid .responsive-media {
     width: 100%;
-    height: auto;            /* Natural aspect ratio — no cropping */
+    height: auto;
+    /* Natural aspect ratio — no cropping */
     max-height: 300px;
     object-fit: contain;
     object-position: center;
@@ -699,7 +715,7 @@ h1, h2, h3, h4, h5, h6 {
     position: fixed;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(255,255,255,0.12);
+    background: rgba(255, 255, 255, 0.12);
     border: none;
     color: #fff;
     font-size: 2.5rem;
@@ -712,12 +728,17 @@ h1, h2, h3, h4, h5, h6 {
     user-select: none;
 }
 
-#lightbox-prev { left: 0.5rem; }
-#lightbox-next { right: 0.5rem; }
+#lightbox-prev {
+    left: 0.5rem;
+}
+
+#lightbox-next {
+    right: 0.5rem;
+}
 
 #lightbox-prev:hover,
 #lightbox-next:hover {
-    background: rgba(255,255,255,0.25);
+    background: rgba(255, 255, 255, 0.25);
 }
 
 /* =========================================================
@@ -769,24 +790,43 @@ h1, h2, h3, h4, h5, h6 {
     background: #0090b8;
 }
 
-[data-theme="dark"] .status-completed  { background: #1da460; }
-[data-theme="dark"] .status-ongoing    { background: #d97706; }
-[data-theme="dark"] .status-under-review { background: #8b5cf6; }
+[data-theme="dark"] .status-completed {
+    background: #1da460;
+}
+
+[data-theme="dark"] .status-ongoing {
+    background: #d97706;
+}
+
+[data-theme="dark"] .status-under-review {
+    background: #8b5cf6;
+}
 
 /* =========================================================
    PRINT STYLESHEET
    Clean single-column CV-style print layout.
    ========================================================= */
 @media print {
+
     /* Hide navigation, sidebar, progress bar, buttons */
-    .masthead, .sidebar, #reading-progress,
-    #back-to-top, #lightbox-overlay,
+    .masthead,
+    .sidebar,
+    #reading-progress,
+    #back-to-top,
+    #lightbox-overlay,
     .author__urls-wrapper button,
-    .page__share, .page__related,
-    .page__footer { display: none !important; }
+    .page__share,
+    .page__related,
+    .page__footer {
+        display: none !important;
+    }
 
     /* Full-width content */
-    #main { margin: 0 !important; padding: 0 !important; }
+    #main {
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+
     .page {
         width: 100% !important;
         float: none !important;
@@ -795,15 +835,31 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     /* Force black text on white */
-    body { color: #000 !important; background: #fff !important; }
-    a { color: #000 !important; text-decoration: underline; }
+    body {
+        color: #000 !important;
+        background: #fff !important;
+    }
+
+    a {
+        color: #000 !important;
+        text-decoration: underline;
+    }
 
     /* Show full URLs after links */
-    a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; }
+    a[href^="http"]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.8em;
+    }
 
     /* Images */
-    img { max-width: 100% !important; page-break-inside: avoid; }
-    figure { page-break-inside: avoid; }
+    img {
+        max-width: 100% !important;
+        page-break-inside: avoid;
+    }
+
+    figure {
+        page-break-inside: avoid;
+    }
 
     /* Project cards without borders for print */
     .project-card {
@@ -814,10 +870,22 @@ h1, h2, h3, h4, h5, h6 {
     }
 
     /* Typography */
-    body { font-size: 11pt; line-height: 1.5; }
-    h1 { font-size: 20pt; }
-    h2 { font-size: 15pt; }
-    h3 { font-size: 13pt; }
+    body {
+        font-size: 11pt;
+        line-height: 1.5;
+    }
+
+    h1 {
+        font-size: 20pt;
+    }
+
+    h2 {
+        font-size: 15pt;
+    }
+
+    h3 {
+        font-size: 13pt;
+    }
 }
 
 /* =========================================================
@@ -834,4 +902,3 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 0;
     border: 1px solid var(--global-border-color, #e0e0e0);
 }
-
