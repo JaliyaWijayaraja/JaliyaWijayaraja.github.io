@@ -221,7 +221,7 @@ figcaption {
 /* Smooth scrolling for anchor links */
 html {
     scroll-behavior: smooth;
-    scroll-padding-top: 80px; /* Offset for fixed masthead */
+    scroll-padding-top: 130px; /* Offset for fixed masthead + project card padding */
 }
 
 /* =========================================================
