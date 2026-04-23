@@ -11,9 +11,6 @@ redirect_from:
 
 ## Curriculum Vitae
 
-The comprehensive CV below includes detailed sections on my Professional Experience, Research, and Teaching portfolios. 
-
-
 
 <div class="pdf-container" style="margin-top: 20px;">
   <iframe src="/assets/Documents/Jaliya_Wijayaraja_CV.pdf?v=3" width="100%" height="800px" style="border: none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
