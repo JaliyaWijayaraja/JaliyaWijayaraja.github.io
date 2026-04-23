@@ -10,6 +10,7 @@ redirect_from:
 {% include base_path %}
 
 ## Curriculum Vitae
+Last updated: April 2026.
 
 <div class="pdf-container" style="margin-top: 20px;">
   <iframe src="/assets/Documents/Jaliya_Wijayaraja_CV.pdf?v=3" width="100%" height="800px" style="border: none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
