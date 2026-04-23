@@ -23,5 +23,5 @@ The comprehensive CV below includes detailed sections on my Professional Experie
 
 <br>
 <div style="text-align: center;">
-  <a href="/assets/Documents/Jaliya_Wijayaraja_CV.pdf?v=3" class="btn btn--primary" target="_blank">Download Full CV (PDF)</a>
+  <a href="/assets/Documents/Jaliya_Wijayaraja_CV.pdf?v=4" class="btn btn--primary" target="_blank">Download Full CV (PDF)</a>
 </div>
