@@ -129,4 +129,4 @@ Received grant support for Farm's Tech (Pvt) Ltd under the GoviLab AgriTech Acce
 
 ### SLIIT Research Grants 2023 {#sliit-research-grant-2023}
 
-Received under the annual research grant programme of the Sri Lanka Institute of Information Technology for the project *"Development of a Novel Detection System to Address Human-Elephant Conflict and Support the Conservation of Sri Lankan Elephants."* This grant supported research conducted under Dr. Janaka Wijekoon, who served as Principal Investigator.
+Received under the annual research grant programme of the Sri Lanka Institute of Information Technology for the project “Development of a Novel Detection System to Address Human-Elephant Conflict and Support the Conservation of Sri Lankan Elephants.” This grant supported the research conducted under Dr. Janaka Wijekoon, who served as Principal Investigator, and also supported my MPhil studies.
